@@ -11,7 +11,7 @@ export default function CreditCardFront({ formData }) {
 
 
 	return (
-		<div className="mt-[8rem] ml-[-35px] bg-no-repeat w-9/12 h-auto bg-contain md:bg-auto absolute inset-y-0 md:top-[130px] md:right-[1180px] md:w-[447px] md:h-[245px]"
+		<div className="mt-[8rem] ml-[-35px] bg-no-repeat w-9/12 h-[150px] bg-contain md:bg-auto absolute inset-y-0 md:top-[130px] md:right-[1180px] md:w-[447px] md:h-[245px]"
 			style={{ backgroundImage: "url(/bg-card-front.png)" }}>
 			<div className="w-[0px] h-[0px] mt-3 md:mt-8 ml-8 md:w-[84px] md:h-[47px] fill"><CardLogo /></div>
 			<p id="cardnumber" name="cardnumber"
